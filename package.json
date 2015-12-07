@@ -1,0 +1,27 @@
+{
+  "name": "typescript-workshop",
+  "private": true,
+  "description": "Introduction to TypeScript",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AngularClass/typescript-workshop.git"
+  },
+  "author": {
+    "name": "Blake Embrey",
+    "email": "hello@blakeembrey.com",
+    "url": "http://blakeembrey.me"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AngularClass/typescript-workshop/issues"
+  },
+  "homepage": "https://github.com/AngularClass/typescript-workshop",
+  "devDependencies": {
+    "ts-node": "^0.5.4",
+    "tslint": "^3.1.1",
+    "typescript": "1.7.3"
+  }
+}
