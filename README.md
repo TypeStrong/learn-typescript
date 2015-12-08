@@ -15,6 +15,7 @@ You've cloned this repo, great! Now `npm install` and open your IDE of choice (I
 3. [JavaScript Features (with TypeScript)](03-javascript-features)
 4. [Project](04-project)
 5. [Diving Deeper](05-diving-deeper)
+6. [Integration](06-integration)
 
 ## Resources
 
