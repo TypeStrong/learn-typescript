@@ -11,10 +11,10 @@ class Clazz implements Implementation {
   // Only child classes can access `foo`. Note that this _does not_ modify the JS output, so JavaScript users could still access this freely.
   protected foo: string
 
-  // Use the `public` modifier to automatically set `this.name = name`. Only available in constructors, can also be `private` or `protected`.
+  // Use the `public` modifier to automatically set `this.myName = myName`. Only available in constructors, can also be `private` or `protected`.
   constructor (public myName: string) {
     // Type `foo` must be specified before usage.
-    this.foo = name.toUpperCase()
+    this.foo = myName.toUpperCase()
   }
 
   // Methods are specified using this syntax of `<name> (<parameters>) { <body> }`.
@@ -35,7 +35,7 @@ class Clazz implements Implementation {
 
 var c = new Clazz('hello')
 
-c.myName // OK.
+c.myName //=> "hello".
 // c.foo //=> Error: Property 'foo' is protected and only accessible within class 'Clazz' and its subclasses.
 c.value //=> "HELLO".
 
