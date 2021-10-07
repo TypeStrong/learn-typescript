@@ -7,7 +7,7 @@ const value = 'test'
 
 const array = [1, 2, 3]
 
-// I recommend only using `let` when the value can be changed - such as in a loop.
+// I recommend only using `let` when the value will be changed - such as in a loop.
 for (let i = 0; i < array.length; i++) {
   console.log(array[i])
 }
